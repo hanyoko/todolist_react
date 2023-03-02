@@ -1,0 +1,55 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; vertical-align: middle; }
+
+.todo {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    height: 140px;
+    padding-top: 30px;
+}
+.header h2 {
+    color: #fff;
+    font-size: 32px;
+}
+.header input {
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+.header button {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #00f2fe;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.todoLists {
+    list-style: none;
+}
+.todoLists li {
+    line-height: 40px;
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.todoLists li button {
+    float: right;
+    border: none;
+    outline: none;
+    line-height: 40px;
+}
